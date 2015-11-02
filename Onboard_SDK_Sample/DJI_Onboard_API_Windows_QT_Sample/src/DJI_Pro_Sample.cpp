@@ -269,10 +269,10 @@ static void * DJI_Sample_Gimbal_Ctrl_Thread_Func(void * arg)
     DJI_Sample_Gimbal_AngelCtrl(-1800, 0, 0, 20);
     sleep(2);
     usleep(100000);
-    DJI_Sample_Gimbal_AngelCtrl(0, 500, 0, 20);
+    DJI_Sample_Gimbal_AngelCtrl(0, 400, 0, 20);
     sleep(2);
     usleep(100000);
-    DJI_Sample_Gimbal_AngelCtrl(0, -500, 0, 20);
+    DJI_Sample_Gimbal_AngelCtrl(0, -400, 0, 20);
     sleep(2);
     usleep(100000);
     DJI_Sample_Gimbal_AngelCtrl(0, 0, 300, 20);
